@@ -66,9 +66,7 @@ def log_current_line():
 
 def interact(msg=None):
     """Start an interactive interpreter session in the current environment.
-
-    On Unix:
-      <Control>-D exits the interactive session and returns to normal execution.
+    
     In Windows:
       <Control>-Z <Enter> exits the interactive session and returns to normal
       execution.
